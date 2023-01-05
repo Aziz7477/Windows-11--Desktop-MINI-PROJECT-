@@ -3,13 +3,24 @@
     margin: 0;
 }
 body{
-    background-image: url(bg.jpeg);
-    background-size: cover;
+/*     background-image: url(bg.jpeg); */
+/*     background-size: cover; */
+  background-color: black;
+  overflow: hidden;
 }
-task-bar{
+.task-bar{
   position: absolute;
-  bottom: 10;
+  bottom: 0;
   display: flex;
   justify-content: center;
   width: 100%;
+  background-color: #f3f3f3;
+  
+}
+.task-right{
+  justify-self: flex-end;
+  position: absolute;
+  right: 0;
+  margin: 6px 0;
+  height: 85%;
 }
