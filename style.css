@@ -8,6 +8,7 @@ body{
   background-color: black;
   overflow: hidden;
 }
+
 .task-bar{
   position: absolute;
   bottom: 0;
@@ -15,6 +16,7 @@ body{
   justify-content: center;
   width: 100%;
   background-color: #f3f3f3;
+  z-index: 100;
   
 }
 .task-right{
@@ -23,4 +25,18 @@ body{
   right: 0;
   margin: 6px 0;
   height: 85%;
+  
+}
+.start-menu img{
+  border-radius: 8px;
+}
+.start-menu{
+  position: absolute;
+  bottom: -650px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+.icon{
+  padding: 8px;
 }
